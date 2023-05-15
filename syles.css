@@ -1,0 +1,73 @@
+/* Reset some default browser styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Add some space around the whole page */
+.container {
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Align the nav items horizontally */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add some space between sections, and give each one a different background color */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+/* Distinguish different section background colors */
+#home {
+    background-color: #eee;
+}
+
+#about {
+    background-color: #ddd;
+}
+
+#skills {
+    background-color: #ccc;
+}
+
+#projects {
+    background-color: #bbb;
+}
+
+#contact {
+    background-color: #aaa;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
